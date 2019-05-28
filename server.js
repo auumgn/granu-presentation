@@ -4,8 +4,11 @@ const bodyParser = require('body-parser');
 //const cors = require('cors');
 const path = require('path');
 
-
-app.listen(5001);
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 5001;
+}
+app.listen(port);
 app.use(bodyParser.urlencoded({
     extended: true
 }));
