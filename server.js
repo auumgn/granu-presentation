@@ -22,3 +22,5 @@ app.get('/', async (req, res) => {
     res.header('Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS');
     res.sendFile(path.join(__dirname + 'index.html'));
 });
+
+console.log(__dirname + '\index.html');

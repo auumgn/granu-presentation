@@ -4,7 +4,7 @@ const SRC = path.resolve(__dirname, 'src/js');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-    entry: SRC + '/index.js',
+    entry: SRC + '/four.js',
     module: {
         rules: [
           {

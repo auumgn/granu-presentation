@@ -2,11 +2,11 @@
   "name": "granupage",
   "version": "1.0.0",
   "description": "granulator presentation page",
-  "main": "src/app/index.js",
+  "main": "src/js/four.js",
   "scripts": {
     "start": "node server.js",
     "create": "webpack --config ./webpack.config.js",
-    "on": "webpack-dev-server --config ./webpack.config.js --mode development --content-base=src/build"
+    "on": "webpack-dev-server --config ./webpack.config.js --mode development --content-base=./"
   },
   "author": "auumgn",
   "license": "ISC",

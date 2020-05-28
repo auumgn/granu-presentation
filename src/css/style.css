@@ -15,13 +15,15 @@ canvas {
 }
 
 #scrollbar {
-    height: calc(100% - 40px);
+    height: calc(100% - 45px);
     position:absolute;
     margin-top: 20px;
-    right: 5px;
+    right: 8px;
 }
 
-#test {height: 20px;}
+#test {
+    height: 20px;
+}
 
 #test, #test2 {
     display:none;
